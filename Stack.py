@@ -22,7 +22,7 @@ class Stack:
 		return self.top.value
 	def isEmpty(self):
 		return self.top is None
-	def size(self):
+	def getSize(self):
 		return self.size
 	def display(self):
 		cur=self.top
