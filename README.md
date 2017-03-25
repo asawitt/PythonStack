@@ -27,10 +27,10 @@ s.pop()
 ### Display the Stack:
 s.display()
 
-### Size O(1)
+### Getting the size O(1)
 -Returns the number of elements in the Stack
 
-q.size()
+q.getSize()
 
 ### Check if the Stack is empty O(1)
 -Returns True if the Stack is empty, False otherwise
