@@ -18,7 +18,7 @@ class Stack:
 		return val
 	def peek(self):
 		if self.top is None:
-			return Nones
+			return None
 		return self.top.value
 	def isEmpty(self):
 		return self.top is None
