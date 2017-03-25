@@ -10,11 +10,15 @@ class Stack:
 		self.top = StackNode(self.top,value)
 		self.size += 1
 	def pop(self):
+		if self.top is None:
+			return None
 		val = self.top.value
 		self.top = self.top.next
-		self.size = max(0,self.size-1)
+		self.size -= 1
 		return val
 	def peek(self):
+		if self.top is None:
+			return Nones
 		return self.top.value
 	def isEmpty(self):
 		return self.top is None
